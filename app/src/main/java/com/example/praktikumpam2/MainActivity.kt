@@ -24,6 +24,10 @@ class MainActivity : ComponentActivity() {
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
+                    //panggil composable layout utama dengan padding dari scaffold
+                    TataletakBoxColumnRow(
+                        modifier = Modifier.padding(paddingValues = innerPadding)
+                    )
                 }
             }
         }
